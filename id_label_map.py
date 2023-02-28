@@ -9,5 +9,11 @@ id_label_map = {
     "8": "a pair of scissors",
     "9": "a pilot",
     "10": "a rose",
-    "11": "a vase with flowers"
+    "11": "a vase with flowers",
+    "12": "despair",
+    "13": "fuzzy logic",
+    "14": "hope",
+    "15": "multilayer perceptron",
+    "16": "serenity",
+    "17": "the feeling of summer rain"
 }
