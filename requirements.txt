@@ -3,3 +3,4 @@ transformers
 Pillow
 requests
 torch
+flask-cors

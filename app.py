@@ -1,5 +1,6 @@
 # import main Flask class and request object
 from flask import Flask, request
+from flask_cors import CORS, cross_origin
 from transformers import AutoProcessor, BlipForConditionalGeneration
 from PIL import Image
 import requests
@@ -7,6 +8,8 @@ from id_label_map import *
 
 # create the Flask app
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 model = None
 processor = None
 
