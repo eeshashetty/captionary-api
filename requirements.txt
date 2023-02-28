@@ -2,4 +2,4 @@ Flask==2.2.3
 transformers
 Pillow
 requests
-gunicorn==20.1.0
+torch
