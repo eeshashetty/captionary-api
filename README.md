@@ -5,7 +5,7 @@ API for Captionary
 
 Install requirements
 ```
-pip install -r requirements.py
+pip install -r requirements.txt
 ```
 
 Run Flask App
